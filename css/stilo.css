@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #674baf url("../images/bg-mobile.svg") no-repeat;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+main {
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+main .logo img {
+  width: 120px;
+}
+main .banner {
+  margin: 40px auto;
+  background: url("../images/illustration-mockups.svg") no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 250px;
+}
+main section {
+  text-align: center;
+}
+main section .text {
+  font-size: 0.97rem;
+  margin-top: 15px;
+}
+main section button {
+  width: 200px;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 35px;
+  color: #674baf;
+  font-size: 1rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+main section button:hover {
+  background: #e882e8;
+  color: #fff;
+}
+main .social {
+  text-align: center;
+  margin-top: 85px;
+}
+main .social * + a {
+  margin-left: 15px;
+}
+main .social i {
+  color: #fff;
+  border: 1px solid #fff;
+  width: 37px;
+  height: 37px;
+  line-height: 37px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+main .social i:hover {
+  color: #e882e8;
+  border-color: #e882e8;
+}
+
+footer {
+  text-align: center;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+  background: #f0adf0;
+  padding: 11px;
+  color: #2e0051;
+}
+footer .attribution a {
+  color: white;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background: #674baf url("../images/bg-desktop.svg") no-repeat;
+    background-size: cover;
+  }
+
+  main {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 60px 80px;
+  }
+  main .logo {
+    height: 50px;
+  }
+  main .logo img {
+    width: 200px;
+  }
+  main .content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+  }
+  main .content .banner {
+    margin-left: 20px;
+    height: 550px;
+    width: 700px;
+  }
+  main .content section {
+    height: 550px;
+    width: 550px;
+    text-align: left;
+    padding: 55px 20px;
+  }
+  main .content section .title {
+    font-size: 2.2rem;
+  }
+  main .content section .text {
+    margin-top: 50px;
+    line-height: 1.7rem;
+    width: 510px;
+  }
+  main .social {
+    text-align: right;
+    margin-top: 0;
+  }
+}
+
+/*# sourceMappingURL=stilo.css.map */
